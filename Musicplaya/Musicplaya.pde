@@ -25,7 +25,7 @@ void keyPressed() {
   if (key=='P' || key=='p') {
     if (song1.isPlaying() ) {
       song1.pause();
-    } else if (song1.position() >=song1.length()-song1.length()*1.5){
+    } else if (song1.position() >=song1.length()-song1.length()*1/10){
       song1.play();
     }
 
@@ -56,7 +56,6 @@ void keyPressed() {
     //play pause feature
   }//End keyPressed
   //
-  void mouseClicked() {
-  }//End mousePressed
+  void mouseClicked() {}//End mousePressed
   //
   //End Main Program
